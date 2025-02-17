@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.header h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.trading_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.trading_info h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.balance_info {
+  text-align: right;
+}
+
+.balance_info span {
+  color: #ccc;
+  font-size: 14px;
+}
